@@ -1,10 +1,11 @@
-
 # yopass - Spanish language file
 
-***Credits to [Anturix](https://github.com/Anturix) and [NicolasStr](https://github.com/NicolasStr/yopass-french) for example about translating Yopass***
+**_Credits to [Anturix](https://github.com/Anturix) and [NicolasStr](https://github.com/NicolasStr/yopass-french) for example about translating Yopass_**
 
 ---
+
 ## English
+
 Spanish language file for Yopass by Johan Haals (jhaals/yopass)
 [Yopass - Share Secrets Securely](https://github.com/jhaals/yopass)
 
@@ -24,7 +25,8 @@ cd yopass-spanish
 docker build -t nbensa/yopasses -f Dockerfile
 ```
 
----
+Also, you can use the prebuilt image [eneabe/yopass-spanish](https://hub.docker.com/r/eneabe/yopass-spanish)
+
 ## Español
 
 Traducción al español de Yopass de Johan Haals (Jhaals / Yopass)
@@ -36,13 +38,14 @@ Copie el archivo `website/public/locales/es.json` al directorio correspondiente 
 
 Yopass detectará automaticamente el nuevo idioma y lo activará si su navegador lo solicita.
 
-
 ### Contenedor
 
-Clone el repositorio y cree su propia imagen de Yopass con el archivo de tracción al español. 
+Clone el repositorio y cree su propia imagen de Yopass con el archivo de tracción al español.
 
 ```
 git clone https://github.com/nbensa/yopass-spanish.git
 cd yopass-spanish
 docker build -t nbensa/yopasses -f Dockerfile
 ```
+
+También puede utilizar la imagen de Docker [eneabe/yopass-spanish](https://hub.docker.com/r/eneabe/yopass-spanish)
