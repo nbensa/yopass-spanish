@@ -10,7 +10,7 @@
     "inputGenerateLabel": "Generar clave de desencriptación"
   },
   "upload": {
-    "title": "Arraste el archivo a subir",
+    "title": "Arraste el archivo que desea enviar",
     "caption": "La carga de archivo está diseñada para archivos pequeños como claves ssh y certificados.",
     "errorFileTooLarge": "El archivo es muy grande"
   },
@@ -21,24 +21,24 @@
     "captionDecryptionKey": "No refresque esta ventana ya que es posible que el secreto sólo pueda verse una vez",
     "inputDecryptionKeyPlaceholder": "Clave de desencriptación",
     "inputDecryptionKeyLabel": "Se requiere una clave de desencriptación, por favor ingrésela",
-    "errorInvalidPassword": "Contraseña inválida, por favor inténtelo nuevamente",
+    "errorInvalidPassword": "Clave de desencriptación inválida, por favor inténtelo nuevamente",
     "buttonDecrypt": "Desencriptar secreto"
   },
   "error": {
     "title": "El secreno no existe",
     "subtitle": "Esto puede por alguna de estas razones.",
     "titleOpened": "Se abrió con anterioridad",
-    "subtitleOpenedBefore": "El secreto puede estar restringido a verse sólo una vez. Puede haber perdido porque alguien hizo clic en el enlace antes de que ud. lo viera.",
-    "subtitleOpenedCompromised": "El secreto podría haberse comprometido y ser leído por otra persona. Contacte a quien se lo envió y pídale un nuevo secreto.",
+    "subtitleOpenedBefore": "El secreto puede estar restringido para verse sólo una vez. Puede haber perdido el acceso al secreto porque alguien hizo clic en el enlace antes de que ud. lo viera.",
+    "subtitleOpenedCompromised": "El secreto podría haberse comprometido y haber sido leído por otra persona. Contacte a quien se lo envió y pídale un nuevo secreto.",
     "titleBrokenLink": "Enlace roto",
-    "subtitleBrokenLink": "El enlace debe ser el correcto para poder desencriptar el secreto, es posible que algunos caracteres se hayan perdido o no se copiar o pegaron correctamente.",
+    "subtitleBrokenLink": "El enlace debe ser el correcto para poder desencriptar el secreto, es posible que algunos caracteres se hayan perdido o no se copiaron y/o pegaron correctamente.",
     "titleExpired": "Expiró",
-    "subtitleExpired": "Los secretos no duran para siempre. Todos los secretos almacenados expirarán y se destruirán automaticamente. El ciclo de vida puede ser de entre una hora y una semana."
+    "subtitleExpired": "Los secretos no duran para siempre. Todos los secretos almacenados expirarán y se destruirán automáticamente. El ciclo de vida puede ser de entre una hora y una semana."
   },
   "result": {
     "title": "Secreto almacenado en la base de datos",
     "subtitleDownloadOnce": "Recuerde que los secretos sólo pueden verse una vez a menos que haya configurado otra cosa.. No abra el enlace ud. mismo.",
-    "subtitleChannel": "Para mayor seguridad, envíe el enlave corto y la clave de desencriptación por canales de comunicación separado.",
+    "subtitleChannel": "Para mayor seguridad, envíe el enlace corto y la clave de desencriptación por canales de comunicación separados.",
     "rowLabelOneClick": "Enlace rápido, un clic (potencialmente inseguro)",
     "rowLabelShortLink": "Enlace corto (más seguro)",
     "rowLabelDecryptionKey": "Clave de desencriptación"
@@ -51,9 +51,9 @@
   },
   "delete": {
     "buttonDelete": "Eliminar",
-    "messageDeleted": "¡El secreto se quitó de la base de datos!",
+    "messageDeleted": "¡El secreto se eliminó de la base de datos!",
     "dialogTitle": "¿Desea eliminar el secreto?",
-    "dialogMessage": "¿Está seguro que desea quitar este secreto?",
+    "dialogMessage": "¿Está seguro que desea eliminar este secreto?",
     "dialogProgress": "Eliminando...",
     "dialogConfirm": "Eliminar",
     "dialogCancel": "Cancelar"
